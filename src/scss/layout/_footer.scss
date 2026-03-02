@@ -2,13 +2,25 @@
     background-color: var(--green-100);
     padding: 31px 0px 31px 0px;
 
+     @media (width > 768px) {
+      display: flex;
+      justify-content: space-between;
+      padding-inline: 40px;
+      align-items: end;
+    }
+
     &__rrss {
         display: flex;
         justify-content: center;
         gap: 20px;
         color: var(--white-100);
         margin-bottom: 20px;
+
+        @media (width > 768px) {
+            margin-bottom: 0;
+        }
     }
+
     &__copyright{
         display: flex;
         justify-content: center;
