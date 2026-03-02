@@ -1,11 +1,15 @@
 .header {
   background-color: var(--green-100);
+  padding-inline: 1.5rem;
+
+  @media (width > 768px) {
+    padding-inline: 2.5rem;
+  }
 
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 1.5rem;
     padding-block: clamp(1rem, 2vw, 2.5rem);
   }
 
