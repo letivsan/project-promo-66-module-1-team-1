@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AdaTech | Contacto </title>
+  <script src="https://kit.fontawesome.com/66349fc88a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="./images/favicon.png" />
+  <link rel="stylesheet" crossorigin href="./assets/main-CCdozLvP.css">
+</head>
+
+<body class="contactpage">
+  <header class="header">
+  <div class="header__inner central-column">
+    <div class="header__logo">
+      <img class="header__img" src="../../images/logo.svg" alt="Logo AdaTech">
+      <span class="header__name">AdaTech</span>
+    </div>
+
+    <button class="header__menu-toggle" aria-label="Abrir menú">
+      <span class="header__hamburger"></span>
+      <span class="header__hamburger"></span>
+      <span class="header__hamburger"></span>
+    </button>
+
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item"><a class="header__link" href="../index.html">Home</a></li>
+        <li class="header__item"><a class="header__link" href="#blog">Servicios</a></li>
+        <li class="header__item"><a class="header__link" href="#team">Nosotras</a></li>
+        <li class="header__item"><a class="header__link" href="../contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="contact central-column">
+    <h1 class="contact__title"> Contáctanos </h1>
+
+    <p class="contact__subtitle">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+
+    <section class="contact__content">
+
+      <div class="contact__map">
+        <img class="contact__map-img" src="./images/map.png" alt="map location">
+      </div>
+
+      <!-- Formulario -->
+      <form class="contact__form" action="https://formspree.io/f/xjgellny" method="POST">
+
+        <label class="contact__label">
+          Nombre
+          <input class="contact__input" type="text" name="name" placeholder="Ej: Amparo" required></label>
+
+        <label class="contact__label">
+          Email
+          <input class="contact__input" type="email" name="email" placeholder="Ej: amparo@email.com" required>
+        </label>
+
+        <label class="contact__label">
+          Mensaje
+          <textarea class="contact__textarea" name="message" placeholder="Cuéntanos en qué podemos ayudarte." rows="3"
+            required></textarea>
+        </label>
+
+        <button class="contact__buttom" type="submit">
+          Submit
+        </button>
+      </form>
+
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <nav class="footer__rrss">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </nav>
+    <p class="footer__copyright">&copy; Adatech, 2026. </p>
+</footer>
+</body>
+
+</html>
